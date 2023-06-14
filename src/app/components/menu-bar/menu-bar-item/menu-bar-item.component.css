@@ -1,0 +1,17 @@
+.menu-bar__item {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.menu-bar__item ul {
+  display: flex;
+  list-style: none;
+}
+.menu-bar__item ul li {
+  padding: 0.4rem;
+  margin: 0 1rem;
+}
+.menu-bar__item ul li a:hover {
+  color: blue;
+  font-weight: 600
+}
